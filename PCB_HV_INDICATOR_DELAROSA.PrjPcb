@@ -51,6 +51,23 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
+DocumentPath=PCB_INDICATOR_DELAROSA_REV2_.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=CYXPAZSX
+
+[Document2]
 DocumentPath=Assembly.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -67,7 +84,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document2]
+[Document3]
 DocumentPath=Documentation.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -84,25 +101,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document3]
-DocumentPath=Fabrication.OutJob
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
 [Document4]
-DocumentPath=ActiveBOM.BomDoc
+DocumentPath=Fabrication.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -136,7 +136,7 @@ GenerateClassCluster=0
 DocumentUniqueId=ZBDRUYIR
 
 [Document6]
-DocumentPath=A.SchDoc
+DocumentPath=Comparator.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -153,7 +153,7 @@ GenerateClassCluster=0
 DocumentUniqueId=YJAYAJGP
 
 [Document7]
-DocumentPath=B.SchDoc
+DocumentPath=Connectors.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -170,7 +170,7 @@ GenerateClassCluster=0
 DocumentUniqueId=BAERWJUO
 
 [Document8]
-DocumentPath=C.SchDoc
+DocumentPath=12V_5V_LDO.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -187,7 +187,7 @@ GenerateClassCluster=0
 DocumentUniqueId=TFHSVOTE
 
 [Document9]
-DocumentPath=D.SchDoc
+DocumentPath=5V_Isolator.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -204,41 +204,7 @@ GenerateClassCluster=0
 DocumentUniqueId=NCVUBXEA
 
 [Document10]
-DocumentPath=E.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=6
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=LRVDSICB
-
-[Document11]
-DocumentPath=F.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=7
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=OCTPNARY
-
-[Document12]
-DocumentPath=G.SchDoc
+DocumentPath=One_Shot.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -254,41 +220,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XQWKDDCP
 
-[Document13]
-DocumentPath=..\..\PCB_HVPROJ1\PCB_INDICATOR_DELAROSA_REV1_.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=CYXPAZSX
-
-[Document14]
-DocumentPath=HV_INDICATOR.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=HJBHHJCY
-
-[Document15]
+[Document11]
 DocumentPath=..\..\..\..\Altium_PartLibrary\AltiumLL\SamacSys.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -305,7 +237,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AHCBXEIO
 
-[Document16]
+[Document12]
 DocumentPath=..\..\..\..\Altium_PartLibrary\AltiumLL\SamacSys.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -321,6 +253,87 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=NGLTGAHM
+
+[Document13]
+DocumentPath=LED_Logic.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=9
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=IMBQDYSS
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs\Design Rule Check - PCB_INDICATOR_DELAROSA_REV2_.html
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs\PCB_INDICATOR_DELAROSA_REV2_-NonPlated.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs\PCB_INDICATOR_DELAROSA_REV2_-Plated.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs\PCB_INDICATOR_DELAROSA_REV2_.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs\PCB_INDICATOR_DELAROSA_REV2_.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs\PCB_INDICATOR_DELAROSA_REV2_.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs\PCB_INDICATOR_DELAROSA_REV2_.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs\PCB_INDICATOR_DELAROSA_REV2_.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs\PCB_INDICATOR_DELAROSA_REV2_.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs\PCB_INDICATOR_DELAROSA_REV2_.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs\PCB_INDICATOR_DELAROSA_REV2_.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs\PCB_INDICATOR_DELAROSA_REV2_.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs\PCB_INDICATOR_DELAROSA_REV2_.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs\PCB_INDICATOR_DELAROSA_REV2_.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs\PCB_INDICATOR_DELAROSA_REV2_.REP
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs\PCB_INDICATOR_DELAROSA_REV2_.RUL
+DItemRevisionGUID=
 
 [Parameter1]
 Name=CAGE_CODE
@@ -723,6 +736,10 @@ OutputName6=NC Drill Files
 OutputDocumentPath6=
 OutputVariantName6=
 OutputDefault6=0
+Configuration6_Name1=ForceUpdateSettings
+Configuration6_Item1=False
+Configuration6_Name2=OutputConfigurationParameter1
+Configuration6_Item2=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=True|GenerateSeparateViaTypeFiles=False|GenerateToolsByDrillSymbols=False|NumberOfDecimals=5|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Absolute|Record=DrillView|Units=Imperial|ZeroesMode=KeepLeadingAndTrailingZeroes|DocumentPath=C:\Users\blew2\Documents\GitHub\PCB_INDICATOR\PCB_INDICATOR_DELAROSA_REV2_.PcbDoc
 OutputType7=ODB
 OutputName7=ODB++ Files
 OutputDocumentPath7=
@@ -740,23 +757,25 @@ OutputDocumentPath9=
 OutputVariantName9=[No Variations]
 OutputDefault9=0
 PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType10=Gerber
-OutputName10=Gerber Files
+OutputType10=Gerber X2
+OutputName10=Gerber X2 Files
 OutputDocumentPath10=
 OutputVariantName10=[No Variations]
 OutputDefault10=0
-Configuration10_Name1=OutputConfigurationParameter1
-Configuration10_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=500000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973830~1,16973832~1,16973834~1,16777217~1,16777220~1,16842753~1,16777218~1,16777219~1,16842754~1,16777221~1,16842751~1,16973835~1,16973833~1,16973831~1,16908289~1,16908290~1,16908291~1,16908293~1,16908301~1,16908302~1,16908303~1,16908311~1,16908312~1,16908315~1,16908316~1,16908317~1,16908318~1,16908319~1,16908320~1,16973848~1,16973849~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False
-OutputType11=Gerber X2
-OutputName11=Gerber X2 Files
+OutputType11=IPC2581
+OutputName11=IPC-2581 Files
 OutputDocumentPath11=
 OutputVariantName11=[No Variations]
 OutputDefault11=0
-OutputType12=IPC2581
-OutputName12=IPC-2581 Files
+OutputType12=Gerber
+OutputName12=Gerber Files
 OutputDocumentPath12=
 OutputVariantName12=[No Variations]
 OutputDefault12=0
+Configuration12_Name1=ForceUpdateSettings
+Configuration12_Item1=False
+Configuration12_Name2=OutputConfigurationParameter1
+Configuration12_Item2=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|BoardID=CYXPAZSX|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=500000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GenerateReports=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=True|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MergePadAndRegion=False|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|OutputFormat=Different|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16973830~1,16973832~1,16973834~1,16777217~1,16777219~1,16842751~1,16973835~1,16973833~1,16973831~1,16908316~1,16908320~1|PlotBoardProfile=False|PlotBoardProfileFileName= |PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False|UncheckPlotDrillDrawingLayerPair0_Backdrill=False|UncheckPlotDrillDrawingLayerPair0_Checked=False|UncheckPlotDrillDrawingLayerPair0_DrillType=Regular|UncheckPlotDrillDrawingLayerPair0_FileName= |UncheckPlotDrillDrawingLayerPair0_HighLayer=Bottom Layer|UncheckPlotDrillDrawingLayerPair0_LowLayer=Top Layer|UncheckPlotDrillGuideLayerPair0_Backdrill=False|UncheckPlotDrillGuideLayerPair0_Checked=False|UncheckPlotDrillGuideLayerPair0_DrillType=Regular|UncheckPlotDrillGuideLayerPair0_FileName= |UncheckPlotDrillGuideLayerPair0_HighLayer=Bottom Layer|UncheckPlotDrillGuideLayerPair0_LowLayer=Top Layer|DocumentPath=C:\Users\blew2\Documents\GitHub\PCB_INDICATOR\PCB_INDICATOR_DELAROSA_REV2_.PcbDoc
 
 [OutputGroup6]
 Name=Report Outputs
@@ -1428,6 +1447,156 @@ SelectedOnly=0
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
+ComponentLibIdentifierKind0=Any
+ComponentLibraryIdentifier0=
+ComponentDesignItemID0=MCP1703AT-5002E_CB
+ComponentSymbolReference0=MCP1703AT-5002E_CB
+ComponentUpdate0=1
+ComponentIsDeviceSheet0=0
+ComponentLibIdentifierKind1=Any
+ComponentLibraryIdentifier1=
+ComponentDesignItemID1=SN74LVC2G17DBVR
+ComponentSymbolReference1=SN74LVC2G17DBVR
+ComponentUpdate1=1
+ComponentIsDeviceSheet1=0
+ComponentLibIdentifierKind2=Library Name And Type
+ComponentLibraryIdentifier2=SamacSys.SchLib
+ComponentDesignItemID2=1877285-2
+ComponentSymbolReference2=1877285-2
+ComponentUpdate2=1
+ComponentIsDeviceSheet2=0
+ComponentLibIdentifierKind3=Library Name And Type
+ComponentLibraryIdentifier3=SamacSys.SchLib
+ComponentDesignItemID3=AMC23C11DWV
+ComponentSymbolReference3=AMC23C11DWV
+ComponentUpdate3=1
+ComponentIsDeviceSheet3=0
+ComponentLibIdentifierKind4=Library Name And Type
+ComponentLibraryIdentifier4=SamacSys.SchLib
+ComponentDesignItemID4=C0805C103F1GACAUTO
+ComponentSymbolReference4=C0805C103F1GACAUTO
+ComponentUpdate4=1
+ComponentIsDeviceSheet4=0
+ComponentLibIdentifierKind5=Library Name And Type
+ComponentLibraryIdentifier5=SamacSys.SchLib
+ComponentDesignItemID5=C1210C102JDGACAUTO
+ComponentSymbolReference5=C1210C102JDGACAUTO
+ComponentUpdate5=1
+ComponentIsDeviceSheet5=0
+ComponentLibIdentifierKind6=Library Name And Type
+ComponentLibraryIdentifier6=SamacSys.SchLib
+ComponentDesignItemID6=CGA4J3X8R1H224K125AB
+ComponentSymbolReference6=CGA4J3X8R1H224K125AB
+ComponentUpdate6=1
+ComponentIsDeviceSheet6=0
+ComponentLibIdentifierKind7=Library Name And Type
+ComponentLibraryIdentifier7=SamacSys.SchLib
+ComponentDesignItemID7=CMI-9705-85-SMT-TR
+ComponentSymbolReference7=CMI-9705-85-SMT-TR
+ComponentUpdate7=1
+ComponentIsDeviceSheet7=0
+ComponentLibIdentifierKind8=Library Name And Type
+ComponentLibraryIdentifier8=SamacSys.SchLib
+ComponentDesignItemID8=CRG0805J4K7
+ComponentSymbolReference8=CRG0805J4K7
+ComponentUpdate8=1
+ComponentIsDeviceSheet8=0
+ComponentLibIdentifierKind9=Library Name And Type
+ComponentLibraryIdentifier9=SamacSys.SchLib
+ComponentDesignItemID9=CRMA1206AF500KFKEF
+ComponentSymbolReference9=CRMA1206AF500KFKEF
+ComponentUpdate9=1
+ComponentIsDeviceSheet9=0
+ComponentLibIdentifierKind10=Library Name And Type
+ComponentLibraryIdentifier10=SamacSys.SchLib
+ComponentDesignItemID10=ERJ-P06F2001V
+ComponentSymbolReference10=ERJ-P06F2001V
+ComponentUpdate10=1
+ComponentIsDeviceSheet10=0
+ComponentLibIdentifierKind11=Library Name And Type
+ComponentLibraryIdentifier11=SamacSys.SchLib
+ComponentDesignItemID11=ESR10EZPF4702
+ComponentSymbolReference11=ESR10EZPF4702
+ComponentUpdate11=1
+ComponentIsDeviceSheet11=0
+ComponentLibIdentifierKind12=Library Name And Type
+ComponentLibraryIdentifier12=SamacSys.SchLib
+ComponentDesignItemID12=GRM21BR61H106KE43L
+ComponentSymbolReference12=GRM21BR61H106KE43L
+ComponentUpdate12=1
+ComponentIsDeviceSheet12=0
+ComponentLibIdentifierKind13=Library Name And Type
+ComponentLibraryIdentifier13=SamacSys.SchLib
+ComponentDesignItemID13=GXT21BR61C226ME13L
+ComponentSymbolReference13=GXT21BR61C226ME13L
+ComponentUpdate13=1
+ComponentIsDeviceSheet13=0
+ComponentLibIdentifierKind14=Library Name And Type
+ComponentLibraryIdentifier14=SamacSys.SchLib
+ComponentDesignItemID14=IRLB8721PBF
+ComponentSymbolReference14=IRLB8721PBF
+ComponentUpdate14=1
+ComponentIsDeviceSheet14=0
+ComponentLibIdentifierKind15=Library Name And Type
+ComponentLibraryIdentifier15=SamacSys.SchLib
+ComponentDesignItemID15=KGF21BR71H104KT
+ComponentSymbolReference15=KGF21BR71H104KT
+ComponentUpdate15=1
+ComponentIsDeviceSheet15=0
+ComponentLibIdentifierKind16=Library Name And Type
+ComponentLibraryIdentifier16=SamacSys.SchLib
+ComponentDesignItemID16=KGM21AV51H105ZU
+ComponentSymbolReference16=KGM21AV51H105ZU
+ComponentUpdate16=1
+ComponentIsDeviceSheet16=0
+ComponentLibIdentifierKind17=Library Name And Type
+ComponentLibraryIdentifier17=SamacSys.SchLib
+ComponentDesignItemID17=MIE05W0505BGYE-3R-Z
+ComponentSymbolReference17=MIE05W0505BGYE-3R-Z
+ComponentUpdate17=1
+ComponentIsDeviceSheet17=0
+ComponentLibIdentifierKind18=Library Name And Type
+ComponentLibraryIdentifier18=SamacSys.SchLib
+ComponentDesignItemID18=MMSZ5242B-7-F
+ComponentSymbolReference18=MMSZ5242B-7-F
+ComponentUpdate18=1
+ComponentIsDeviceSheet18=0
+ComponentLibIdentifierKind19=Library Name And Type
+ComponentLibraryIdentifier19=SamacSys.SchLib
+ComponentDesignItemID19=NE555PWRE4
+ComponentSymbolReference19=NE555PWRE4
+ComponentUpdate19=1
+ComponentIsDeviceSheet19=0
+ComponentLibIdentifierKind20=Library Name And Type
+ComponentLibraryIdentifier20=SamacSys.SchLib
+ComponentDesignItemID20=RT73F2B10KBTD
+ComponentSymbolReference20=RT73F2B10KBTD
+ComponentUpdate20=1
+ComponentIsDeviceSheet20=0
+ComponentLibIdentifierKind21=Library Name And Type
+ComponentLibraryIdentifier21=SamacSys.SchLib
+ComponentDesignItemID21=RV0805JR-0710KL
+ComponentSymbolReference21=RV0805JR-0710KL
+ComponentUpdate21=1
+ComponentIsDeviceSheet21=0
+ComponentLibIdentifierKind22=Library Name And Type
+ComponentLibraryIdentifier22=SamacSys.SchLib
+ComponentDesignItemID22=SN74LVC1G04MDBVREP
+ComponentSymbolReference22=SN74LVC1G04MDBVREP
+ComponentUpdate22=1
+ComponentIsDeviceSheet22=0
+ComponentLibIdentifierKind23=Library Name And Type
+ComponentLibraryIdentifier23=SamacSys.SchLib
+ComponentDesignItemID23=WCR0805LF1001FPLT
+ComponentSymbolReference23=WCR0805LF1001FPLT
+ComponentUpdate23=1
+ComponentIsDeviceSheet23=0
+ComponentLibIdentifierKind24=Library Name Only
+ComponentLibraryIdentifier24=Hector Dela Rosa
+ComponentDesignItemID24=CMP-001-00054-4
+ComponentSymbolReference24=CAP-NP-2
+ComponentUpdate24=1
+ComponentIsDeviceSheet24=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1441,6 +1610,125 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
+ParameterName0=Arrow Part Number
+ParameterUpdate0=1
+ParameterName1=Arrow Price/Stock
+ParameterUpdate1=1
+ParameterName2=Capacitor Type
+ParameterUpdate2=1
+ParameterName3=Case/Package
+ParameterUpdate3=1
+ParameterName4=Comment
+ParameterUpdate4=1
+ParameterName5=Component Kind
+ParameterUpdate5=1
+ParameterName6=Datasheet Link
+ParameterUpdate6=1
+ParameterName7=Description
+ParameterUpdate7=1
+ParameterName8=Height
+ParameterUpdate8=1
+ParameterName9=Library Reference
+ParameterUpdate9=1
+ParameterName10=Manufacturer_Name
+ParameterUpdate10=1
+ParameterName11=Manufacturer_Part_Number
+ParameterUpdate11=1
+ParameterName12=Max Operating Temperature
+ParameterUpdate12=1
+ParameterName13=Min Operating Temperature
+ParameterUpdate13=1
+ParameterName14=Mounting Technology
+ParameterUpdate14=1
+ParameterName15=Mouser Part Number
+ParameterUpdate15=1
+ParameterName16=Mouser Price/Stock
+ParameterUpdate16=1
+ParameterName17=Pins
+ParameterUpdate17=1
+ParameterName18=Ripple Current
+ParameterUpdate18=1
+ParameterName19=Ripple Current (AC)
+ParameterUpdate19=1
+ParameterName20=RoHS Compliant
+ParameterUpdate20=1
+ParameterName21=Tolerance
+ParameterUpdate21=1
+ParameterName22=Value
+ParameterUpdate22=1
+ParameterName23=Voltage Rating
+ParameterUpdate23=1
+ModelTypeGroup0=PCBLIB
+ModelTypeUpdate0=1
+ModelType0=PCBLIB
+ModelName0=18772852
+ModelUpdate0=1
+ModelType1=PCBLIB
+ModelName1=C0805
+ModelUpdate1=1
+ModelType2=PCBLIB
+ModelName2=C1210
+ModelUpdate2=1
+ModelType3=PCBLIB
+ModelName3=CAPC0805(2012)145_L
+ModelUpdate3=1
+ModelType4=PCBLIB
+ModelName4=CAPC2012X145N
+ModelUpdate4=1
+ModelType5=PCBLIB
+ModelName5=CAPC2012X147N
+ModelUpdate5=1
+ModelType6=PCBLIB
+ModelName6=CGA4J2NP01H223J125AA
+ModelUpdate6=1
+ModelType7=PCBLIB
+ModelName7=CMI970585SMTTR
+ModelUpdate7=1
+ModelType8=PCBLIB
+ModelName8=ERJP06D1000V
+ModelUpdate8=1
+ModelType9=PCBLIB
+ModelName9=GRM21BR60J226ME39L
+ModelUpdate9=1
+ModelType10=PCBLIB
+ModelName10=RESC2012X60N
+ModelUpdate10=1
+ModelType11=PCBLIB
+ModelName11=RESC2012X65N
+ModelUpdate11=1
+ModelType12=PCBLIB
+ModelName12=RESC2013X65N
+ModelUpdate12=1
+ModelType13=PCBLIB
+ModelName13=RESC3216X70N
+ModelUpdate13=1
+ModelType14=PCBLIB
+ModelName14=RESC3216X74N
+ModelUpdate14=1
+ModelType15=PCBLIB
+ModelName15=SOD3716X145N
+ModelUpdate15=1
+ModelType16=PCBLIB
+ModelName16=SOIC127P1030X265-8N
+ModelUpdate16=1
+ModelType17=PCBLIB
+ModelName17=SOIC127P1150X280-8N
+ModelUpdate17=1
+ModelType18=PCBLIB
+ModelName18=SOP65P640X120-8N
+ModelUpdate18=1
+ModelType19=PCBLIB
+ModelName19=SOT95P255X145-3N
+ModelUpdate19=1
+ModelType20=PCBLIB
+ModelName20=SOT95P280X145-5N
+ModelUpdate20=1
+ModelType21=PCBLIB
+ModelName21=SOT95P280X145-6N
+ModelUpdate21=1
+ModelType22=PCBLIB
+ModelName22=TO254P483X1016X1994-3P
+ModelUpdate22=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0

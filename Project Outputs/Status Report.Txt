@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [PCB_HV_INDICATOR_DELAROSA.PrjPcb]
+   Generated File[PCB_INDICATOR_DELAROSA_REV2_-Plated.TXT]
+   Generated File[PCB_INDICATOR_DELAROSA_REV2_-NonPlated.TXT]
+   Generated File[PCB_INDICATOR_DELAROSA_REV2_.LDP]
+   Generated File[PCB_INDICATOR_DELAROSA_REV2_.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 6:06:33 AM On 3/13/2026
